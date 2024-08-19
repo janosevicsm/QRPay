@@ -1,0 +1,72 @@
+#main-container {
+  height: calc(100vh - 40px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#logo-container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo-container img {
+  max-height: 100px;
+}
+
+#form-container {
+  padding: 20px;
+}
+
+#form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form h1 {
+  color: #F5F5F5
+}
+
+#fields-container, .field-group {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.horiz {
+  flex-direction: row;
+}
+
+.vert {
+  flex-direction: column;
+}
+
+.field {
+  width: 100%;
+}
+
+.field mat-label {
+  font-size: x-large;
+  font-family: 'Poppins', sans-serif;
+}
+
+.field input {
+  font-size: x-large;
+}
+
+.field mat-error {
+  margin-top: 10px;
+  font-size: large;
+}
+
+
+#submitBtn {
+  height: calc(100% - 20px);
+  width: 20%;
+  font-size: x-large;
+  background-color: #37C5EF;
+  font-family: 'Poppins', sans-serif;
+}
+
