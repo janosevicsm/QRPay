@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Fax\\IV\\Zimski\\Praksa\\QRPay\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF7A5E45-2FDE-425C-8C76-7B254B32BAEE}|Backend.csproj|d:\\fax\\iv\\zimski\\praksa\\qrpay\\backend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF7A5E45-2FDE-425C-8C76-7B254B32BAEE}|Backend.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF7A5E45-2FDE-425C-8C76-7B254B32BAEE}|Backend.csproj|d:\\fax\\iv\\zimski\\praksa\\qrpay\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF7A5E45-2FDE-425C-8C76-7B254B32BAEE}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF7A5E45-2FDE-425C-8C76-7B254B32BAEE}|Backend.csproj|d:\\fax\\iv\\zimski\\praksa\\qrpay\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EF7A5E45-2FDE-425C-8C76-7B254B32BAEE}|Backend.csproj|solutionrelative:backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF7A5E45-2FDE-425C-8C76-7B254B32BAEE}|Backend.csproj|d:\\fax\\iv\\zimski\\praksa\\qrpay\\backend\\models\\paymentdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF7A5E45-2FDE-425C-8C76-7B254B32BAEE}|Backend.csproj|solutionrelative:models\\paymentdatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Backend",
+              "DocumentMoniker": "D:\\Fax\\IV\\Zimski\\Praksa\\QRPay\\Backend\\Backend.csproj",
+              "RelativeDocumentMoniker": "Backend.csproj",
+              "ToolTip": "D:\\Fax\\IV\\Zimski\\Praksa\\QRPay\\Backend\\Backend.csproj",
+              "RelativeToolTip": "Backend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-19T23:22:49.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Fax\\IV\\Zimski\\Praksa\\QRPay\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Fax\\IV\\Zimski\\Praksa\\QRPay\\Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T23:13:25.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentDataDTO.cs",
+              "DocumentMoniker": "D:\\Fax\\IV\\Zimski\\Praksa\\QRPay\\Backend\\Models\\PaymentDataDTO.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentDataDTO.cs",
+              "ToolTip": "D:\\Fax\\IV\\Zimski\\Praksa\\QRPay\\Backend\\Models\\PaymentDataDTO.cs",
+              "RelativeToolTip": "Models\\PaymentDataDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T18:49:26.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Fax\\IV\\Zimski\\Praksa\\QRPay\\Backend\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Fax\\IV\\Zimski\\Praksa\\QRPay\\Backend\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T18:27:35.247Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
