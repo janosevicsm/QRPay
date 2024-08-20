@@ -1,0 +1,15 @@
+@import '@angular/material/prebuilt-themes/purple-green.css';
+
+
+html, body {
+  height: 100%;
+  background-color: #1E1E1E;
+  justify-content: center;
+}
+
+html, body { height: 100%; padding: 0}
+body { margin: 0; font-family: 'Poppins', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}

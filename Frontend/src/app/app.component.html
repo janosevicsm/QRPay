@@ -1,0 +1,117 @@
+<div id="main-container">
+  <div id="logo-container">
+    <img alt="Logo" src="./QRPay.png" />
+    <a href="https://www.plativoo.rs/" target="_blank">
+      <img alt="Logo" src="./Plativoo.png"/>
+    </a>
+  </div>
+  <div id="form-container">
+    <form
+      [formGroup]="dataForm"
+      (ngSubmit)="sendPDF()"
+    >
+      <h1>NALOG ZA PRENOS</h1>
+      <div id="fields-container">
+        <div class="field-group vert">
+          <mat-form-field
+            class="field"
+            hideRequiredMarker
+          >
+            <mat-label>Dužnik - Nalogodavac</mat-label>
+            <input matInput type="text" name="duznik" formControlName="duznik"/>
+            <mat-error *ngIf="dataForm?.get('duznik')?.invalid">Neispravan naziv dužnika/nalogodavca</mat-error>
+          </mat-form-field>
+          <mat-form-field
+            class="field"
+            hideRequiredMarker
+          >
+            <mat-label>Račun dužnika - nalogodavca</mat-label>
+            <input matInput type="text" name="racunDuznika" formControlName="racunDuznika"/>
+            <mat-error *ngIf="dataForm?.get('racunDuznika')?.invalid">Neispravan račun dužnika/nalogodavca</mat-error>
+          </mat-form-field>
+          <mat-form-field
+            class="field"
+            hideRequiredMarker
+          >
+            <mat-label>Poverilac - Primalac</mat-label>
+            <input matInput type="text" name="poverilac" formControlName="poverilac"/>
+            <mat-error *ngIf="dataForm?.get('poverilac')?.invalid">Neispravan naziv poverioca/primaoca</mat-error>
+          </mat-form-field>
+          <mat-form-field
+            class="field"
+            hideRequiredMarker
+          >
+            <mat-label>Račun poverioca - primaoca</mat-label>
+            <input matInput type="text" name="racunPoverioca" formControlName="racunPoverioca"/>
+            <mat-error *ngIf="dataForm?.get('racunPoverioca')?.invalid">Neispravan račun poverioca/primaoca</mat-error>
+          </mat-form-field>
+        </div>
+        <div class="field-group vert">
+          <div class="field-group horiz">
+            <mat-form-field
+              class="field"
+              hideRequiredMarker
+            >
+              <mat-label>Šifra plaćanja</mat-label>
+              <input matInput type="text" name="sifra" formControlName="sifra"/>
+              <mat-error *ngIf="dataForm?.get('sifra')?.invalid">Neispravna šifra plaćanja</mat-error>
+            </mat-form-field>
+            <mat-form-field
+              class="field"
+              hideRequiredMarker
+            >
+              <mat-label>Valuta</mat-label>
+              <input matInput type="text" name="valuta" formControlName="valuta"/>
+              <mat-error *ngIf="dataForm?.get('valuta')?.invalid">Neispravna valuta</mat-error>
+            </mat-form-field>
+            <mat-form-field
+              class="field"
+              hideRequiredMarker
+            >
+              <mat-label>Iznos</mat-label>
+              <input matInput type="text" name="iznos" formControlName="iznos"/>
+              <mat-error *ngIf="dataForm?.get('iznos')?.invalid">Neispravan iznos</mat-error>
+            </mat-form-field>
+          </div>
+          <mat-form-field
+            class="field"
+            hideRequiredMarker
+          >
+            <mat-label>Svrha plaćanja</mat-label>
+            <input matInput type="text" name="svrha" formControlName="svrha"/>
+            <mat-error *ngIf="dataForm?.get('svrha')?.invalid">Neispravna svrha plaćanja</mat-error>
+          </mat-form-field>
+          <div class="field-group horiz">
+            <mat-form-field
+              class="field"
+              hideRequiredMarker
+            >
+              <mat-label>Model</mat-label>
+              <input matInput type="text" name="model" formControlName="model"/>
+              <mat-error *ngIf="dataForm?.get('model')?.invalid">Neispravan model</mat-error>
+            </mat-form-field>
+            <mat-form-field
+              class="field"
+              hideRequiredMarker
+            >
+              <mat-label>Poziv na broj</mat-label>
+              <input matInput type="text" name="poziv" formControlName="poziv"/>
+              <mat-error *ngIf="dataForm?.get('poziv')?.invalid">Neispravan poziv na broj</mat-error>
+            </mat-form-field>
+          </div>
+          <div class="field-group horiz">
+            <mat-form-field
+              class="field"
+              hideRequiredMarker
+            >
+              <mat-label>Email</mat-label>
+              <input matInput type="text" name="email" formControlName="email"/>
+              <mat-error *ngIf="dataForm?.get('email')?.invalid">Neispravan email</mat-error>
+            </mat-form-field>
+            <button mat-raised-button type="submit" id="submitBtn">Pošalji PDF</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

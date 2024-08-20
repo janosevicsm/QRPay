@@ -226,3 +226,7 @@ fabric.properties
 
 # Azure Toolkit for IntelliJ plugin
 # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
+Backend/.vs/Backend/DesignTimeBuild/.dtbcache.v2
+Backend/.vs/Backend/v17/.suo
+Backend/emailsettings.json
+*.vsidx
