@@ -1,6 +1,15 @@
 
 # QRPay - Payment Data Processing and Email Service
 
+<table>
+  <tr>
+    <td><img src="https://github.com/janosevicsm/QRPay/blob/main/Backend/wwwroot/images/QRPay.png" alt="Logo1" width="300"/></td>
+    <td align="right"><img src="https://github.com/janosevicsm/QRPay/blob/main/Backend/wwwroot/images/Plativoo.png" alt="Logo2" width="100"/></td>
+  </tr>
+</table>
+
+
+
 ## Overview
 
 QRPay is a web application designed to generate and send payment-related PDFs via email. The application takes payment data input from a frontend form, generates a PDF document, and emails it to the specified recipient. The QR code generated from the payment data also allows users to quickly scan and access the payment form pre-filled with the data.
@@ -81,3 +90,16 @@ The backend uses the `System.Net.Mail` library to send emails. The email setting
 1. Fill in the payment details form on the frontend.
 2. Submit the form to generate and send the payment PDF via email.
 3. Check your email for the PDF attachment.
+
+## About
+This project was developed as part of an internship program at Plativoo d.o.o. company. The primary objective of the project is to demonstrate the practical application of various technologies and methodologies in a real-world scenario, focusing on payment data processing and email service integration.
+
+### Author
+- [Marko Janošević](https://github.com/janosevicsm)
+### Mentor
+- [Đorđe Cvetković](https://github.com/dewebeloper)
+
+## App Image and PDF Example
+![Background](https://github.com/janosevicsm/QRPay/blob/main/ProjectImages/Frontend.png)
+![Background](https://github.com/janosevicsm/QRPay/blob/main/ProjectImages/PDFExample.JPEG)
+
